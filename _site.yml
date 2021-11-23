@@ -1,5 +1,6 @@
 name: "Personal Website"
-title: "David's Website"
+title: "David Wong"
+theme: theme1.css
 description: |
   David's Website
 output_dir: "_site"
