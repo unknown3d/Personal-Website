@@ -3,23 +3,22 @@
     {
       "path": "about.html",
       "title": "About this blog",
-      "description": "Some additional details about the blog",
-      "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-11-24T12:35:17+08:00"
-    },
-    {
-      "path": "index.html",
-      "title": "David's Website",
-      "description": "Hi welcome to my website. This is a place for me to showcase myself   as well as learn and improve my coding skills. Feel free to browse    around!\n",
+      "description": "Some additional details about the blog\n",
       "author": [
         {
           "name": "David Wong",
           "url": "https://davidwong.netlify.app/about.html"
         }
       ],
-      "contents": "\n\n\n\n\n\n\n",
-      "last_modified": "2021-11-24T19:03:16+08:00"
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-11-24T22:58:41+08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "David Wong",
+      "author": [],
+      "contents": "\n\n          \n          \n          David Wong\n          \n          \n          Home\n          About\n          Posts\n          CV\n          \n          \n          \n          \n          \n          \n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              David Wong\n            \n            \n              \n                \n                    \n                      \n                        LinkedIn\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Facebook\n                      \n                    \n                  \n                                    \n                    \n                      \n                        GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Email\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            \n            \n            Welcome to my website.\n            This is a place for me to showcase myself as well as learn and improve my coding skills. Feel free to have a look around!\n            \n            \n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              David Wong\n            \n            \n              \n                \n                                    \n                    \n                      LinkedIn\n                    \n                  \n                                    \n                    \n                      Facebook\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                    \n                    \n                      Email\n                    \n                  \n                                  \n              \n            \n            \n              \n              \n              Welcome to my website.\n              This is a place for me to showcase myself as well as learn and improve my coding skills. Feel free to have a look around!\n              \n              \n            \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-11-24T23:21:04+08:00"
     },
     {
       "path": "posts.html",

@@ -1,18 +1,48 @@
 ---
-title: "David's Website"
+title: "David Wong"
+image: "images/David.png"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/david-wong-57757b162/"
+  - label: Facebook
+    url: "https://www.facebook.com/DavidWong1234"
+  - label: GitHub
+    url: "https://github.com/unknown3d"
+  - label: Email
+    url: "mailto:dwong335@gmail.com"
+base_url: https://davidwong.netlify.app/
+preview: images/David.png
+
 site: distill::distill_website
-
-author:
-  - name: David Wong
-    url: https://davidwong.netlify.app/about.html
-    affiliation: Singapore Students Society
-    affiliation_url: https://sssuom.wixsite.com/home
-  
-description: |
-  Hi welcome to my website. This is a place for me to showcase myself   as well as learn and improve my coding skills. Feel free to browse    around!
-
+output:
+  postcards::trestles
 ---
 
-```{r, echo = FALSE, fig.align = 'center', out.width = '50%'} 
-knitr::include_graphics("~/Desktop/R Projects/Personal Website/Images/David.png")  
+<!-- not sure why this R code block isnt working -->
+```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+library(metathis)
+meta() %>%
+  meta_description(
+    "The personal website of David Wong"
+  ) %>%
+  #meta_name("github-repo" = "jhelvy/jhelvy.com") %>%
+  meta_viewport() %>%
+  meta_social(
+    title = "davidwong.netlift.app",
+    url = "https://davidwong.netlify.app/",
+    image = "https://github.com/unknown3d/Personal-Website/blob/master/Images/David.png?raw=true",
+    image_alt = "A photo of me",
+    og_type = "website",
+    og_author = c("David Wong"),
+    twitter_card_type = "summary",
+    twitter_creator = "@JohnHelveston"
+  )
 ```
+
+
+### Welcome to my website.
+This is a place for me to showcase myself as well as learn and improve my coding skills. Feel free to have a look around!
+
+<img src="images/Procom3.png" width="165px">
+<img src="images/David2.png" width="220px">
+<img src="images/David3.jpg" width="165px">
