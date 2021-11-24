@@ -1,8 +1,5 @@
 ---
 title: "Welcome to David's Website"
-description: |
-  Welcome to our new blog, David's Website. We hope you enjoy 
-  reading what we have to say!
 listing: posts
 
 output:

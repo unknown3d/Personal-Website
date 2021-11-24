@@ -1,7 +1,7 @@
 ---
-title: "About this blog"
+title: "About Me"
 description: |
-  Some additional details about the blog
+  Currently I am a first year commerce student at the University of Melbourne where I major in Acutuairal Science
   
 author:
   - name: David Wong
