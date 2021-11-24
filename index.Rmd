@@ -1,27 +1,18 @@
 ---
 title: "David's Website"
 site: distill::distill_website
+
 author:
   - name: David Wong
     url: https://davidwong.netlify.app/about.html
     affiliation: Singapore Students Society
     affiliation_url: https://sssuom.wixsite.com/home
+  
+description: |
+  Hi welcome to my website. This is a place for me to showcase myself   as well as learn and improve my coding skills. Feel free to browse    around!
 
 ---
-```{r setup, message=FALSE, warning=FALSE, include=FALSE}
-library(metathis)
-meta() %>%
-  meta_description(
-    "The personal website of David Wong"
-  ) %>%
-  #meta_name("github-repo" = "jhelvy/jhelvy.com") %>%
-  meta_viewport() %>%
-  meta_social(
-    title = "https://davidwong.netlify.app/",
-    url = "https://davidwong.netlify.app/",
-    image = "https://github.com/shannonpileggi/pipinghotdata_distill/blob/master/shannon-circle.png?raw=true",
-    image_alt = "A photo of David",
-    og_type = "website",
-    og_author = c("David Wong"),
-  )
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '50%'} 
+knitr::include_graphics("~/Desktop/R Projects/Personal Website/Images/David.png")  
 ```
