@@ -5,7 +5,7 @@ description: |
   reading what we have to say!
 author:
   - name: David Wong
-    url: https://example.com/norajones
+    url: https://davidwong.netlify.app/about.html
     affiliation: Singapore Students Society
     affiliation_url: https://sssuom.wixsite.com/home
 
