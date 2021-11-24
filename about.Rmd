@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 description: |
-  Currently I am a first year commerce student at the University of Melbourne where I major in Acutuairal Science
+  I might be young, but heres an overview of my life so far...
   
 author:
   - name: David Wong
