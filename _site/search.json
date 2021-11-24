@@ -11,9 +11,22 @@
     {
       "path": "index.html",
       "title": "David's Website",
+      "author": [
+        {
+          "name": "David Wong",
+          "url": "https://davidwong.netlify.app/about.html"
+        }
+      ],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-11-24T18:33:21+08:00"
+    },
+    {
+      "path": "posts.html",
+      "title": "Welcome to David's Website",
+      "description": "Welcome to our new blog, David's Website. We hope you enjoy \nreading what we have to say!\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-11-24T17:54:54+08:00"
+      "last_modified": "2021-11-24T18:16:09+08:00"
     }
   ],
   "collections": ["posts/posts.json"]
