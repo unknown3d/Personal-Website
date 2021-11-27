@@ -25,10 +25,10 @@ output:
 This is a place for me to showcase myself as well as learn and improve my coding skills. Feel free to have a look around!
 
 <center>
-Currently a first year student at the University of Melbourne majoring in Actuarial Science under the Bachelor of Commerce. 
-</center>
+Currently a first year Bachelor of Commerce student at the University of Melbourne majoring in Actuarial Science. 
+</center>  
 
-.\linebreak 
+<br/>
 
 <center>
 ![](images/Procom3.png){width=29.5% .external}

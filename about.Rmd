@@ -1,15 +1,47 @@
 ---
 title: "About Me"
 description: |
-  I might be young, but heres an overview of my life so far...
+  I might be young, but here's an overview of my life so far...
   
 author:
   - name: David Wong
     url: https://davidwong.netlify.app/about.html
     affiliation: Singapore Students Society
     affiliation_url: https://sssuom.wixsite.com/home
+    
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+## Education
+### The University of Melbourne
+2021 - Present
+
+### Trinity College Foundation Studies
+::: {.floatting}
+```{r out.width='29.5%', out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("images/David_Trinity.png")
+```
+2018  
+Undertook the electives Mathematics 1, Mathematics 2 and Accounting. The choice of these electives were made with the intent of entering a commerce course in university
+
+:::
+
+### Wesley College Glen Waverley
+::: {.floatting}
+```{r out.width='29.5%', out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("images/David_Wesley.png")
+```
+2013 - 2017:  
+Moved over to Australia from Singapore and studied in Wesley from years 7 to 11
+
+:::
+
+## National Service
+
