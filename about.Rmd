@@ -21,27 +21,47 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Education
 ### The University of Melbourne
-2021 - Present
+2021 - Present:  
+Student at the University of Melbourne majoring in Actuarial Science under the Bachelor of Commerce. Also an events officer for the Singapore Students Society on the 2021/2022 committee. 
+
+![](images/about/SSSEvents1.jpg){width=35% .external}
+![](images/about/SSSEvents2.jpg){width=35% .external}
 
 ### Trinity College Foundation Studies
 ::: {.floatting}
 ```{r out.width='29.5%', out.extra='style="float:right; padding:10px"'}
-knitr::include_graphics("images/David_Trinity.png")
+knitr::include_graphics("images/about/David_Trinity.png")
 ```
-2018  
-Undertook the electives Mathematics 1, Mathematics 2 and Accounting. The choice of these electives were made with the intent of entering a commerce course in university
+2018:  
+Transferred to Trinity College for my final year of high school. I took electives Mathematics 1, Mathematics 2 and Accounting. The choice of these electives were made with the intent of meeting the requirements for the bachelor of commerce at the University of Melbourne
 
 :::
 
 ### Wesley College Glen Waverley
 ::: {.floatting}
-```{r out.width='29.5%', out.extra='style="float:right; padding:10px"'}
-knitr::include_graphics("images/David_Wesley.png")
+```{r out.width='25%', out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("images/about/David_Wesley.png")
 ```
 2013 - 2017:  
-Moved over to Australia from Singapore and studied in Wesley from years 7 to 11
+I attended Wesley College after moving over to Australia from Singapore. Here I was exposed to a new approach and philosophy towards studying and learning, with an emphasis on being self driven and being resourceful in how to find information.
 
+![](images/about/Wesley2.jpg){width=33% .external}
+![](images/about/Wesley3.jpeg){width=33% .external}
 :::
 
-## National Service
 
+## National Service
+::: {.floatting}
+```{r out.width='25%', out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("images/about/Procom4.png")
+```
+2019 - 2021:  
+After high school I returned to Singpore to complete my 2 years of national service. I was enlisted into the Police force and completed the Police Officers Basic Training before being posted to the Protective Security Command. There I commissioned as an Insitu-Reaction Team (IRT) Trooper after completing additional training. The IRT was first introduced in December 2017 as a quick reaction force on the ground geared towards neutralising armed threats. High-visibility foot patrols are conducted at locations with high human traffic, deterring any potential attacks by projecting a strong police presence in the area.
+
+<center>
+
+![](images/about/Procom1.png){width=45% .external}
+![](images/about/Procom5.jpg){width=25.3% .external}
+![](images/about/POBC.jpg){width=25.3% .external}
+</center>
+:::
