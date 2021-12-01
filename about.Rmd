@@ -19,6 +19,36 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+```{r, echo=FALSE}
+library(texPreview)
+library(slickR)
+
+objpath <- file.path(getwd(),"images/photos")
+
+if(!dir.exists(objpath)) { dir.create(objpath,recursive = TRUE) }
+
+tex_opts$set(
+  fileDir    = objpath, # path to save output
+  returnType = 'html', # return images ready for html 
+  imgFormat  = 'png' # return png images
+)
+
+opts <- settings(
+  dots = TRUE,
+  initialSlide = 0,
+  slidesToShow = 2, 
+  slidesToScroll = 1, 
+  focusOnSelect = TRUE)
+
+slickR::slickR(
+    list.files(objpath,full.names = TRUE,pattern = 'jpg'),
+    height = 200,
+    width = "95%" ) + 
+  opts
+
+```
+
+
 ## Education
 ### The University of Melbourne
 2021 - Present:  
@@ -65,3 +95,4 @@ After high school I returned to Singpore to complete my 2 years of national serv
 ![](images/about/POBC.jpg){width=25.3% .external}
 </center>
 :::
+

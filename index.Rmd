@@ -14,7 +14,6 @@ links:
     url: "mailto:dwong335@gmail.com"
 base_url: https://davidwong.netlify.app/
 preview: images/David.png
-
 site: distill::distill_website
 output:
   postcards::trestles
@@ -31,7 +30,7 @@ Currently a first year Bachelor of Commerce student at the University of Melbour
 <br/>
 
 <center>
-![](images/Procom3.png){width=29.5% .external}
-![](images/David2.png){width=39.25% .external}
-![](images/David3.jpg){width=29.5% .external}
+![](images/about/Procom3.png){width=29.5% .external}
+![](images/about/David2.png){width=39.25% .external}
+![](images/about/David3.jpg){width=29.5% .external}
 </center>
