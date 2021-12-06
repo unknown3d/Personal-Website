@@ -1,12 +1,5 @@
 ---
 title: "CV"
-description: |
-  A new article created using the Distill format.
-author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
-    affiliation: Spacely Sprockets
-    affiliation_url: https://example.com/spacelysprokets
 date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
@@ -15,9 +8,9 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 
 ```
-```{r, out.width="0.3\\linewidth", include=TRUE, fig.align="center", fig.cap=c("your caption"), echo=FALSE}
-knitr::include_graphics("resume.pdf")
-```
+
+![](resume/resume1.png){width=100%}
+![](resume/resume2.png){width=100%}
 
 <!-- ![](resume.pdf){width=100%} -->
 
