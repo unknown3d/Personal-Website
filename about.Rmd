@@ -1,20 +1,14 @@
 ---
-title: "About Me"
+title: "About"
 description: |
-  I might be young, but here's an overview of my life so far...
-  
-author:
-  - name: David Wong
-    url: https://davidwong.netlify.app/about.html
-    affiliation: Singapore Students Society
-    affiliation_url: https://sssuom.wixsite.com/home
+  Here's what I've been up to so far...
     
 output:
   distill::distill_article:
     toc: true
     toc_depth: 3
 ---
-
+ 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
@@ -35,14 +29,16 @@ tex_opts$set(
 
 opts <- settings(
   dots = TRUE,
+  infinite = TRUE,
+  autoplay = TRUE,
   initialSlide = 0,
-  slidesToShow = 2, 
+  slidesToShow = 1, 
   slidesToScroll = 1, 
   focusOnSelect = TRUE)
 
 slickR::slickR(
     list.files(objpath,full.names = TRUE,pattern = 'jpg'),
-    height = 200,
+    height = 220,
     width = "95%" ) + 
   opts
 
@@ -52,7 +48,7 @@ slickR::slickR(
 ## Education
 ### The University of Melbourne
 2021 - Present:  
-Student at the University of Melbourne majoring in Actuarial Science under the Bachelor of Commerce. Also an events officer for the Singapore Students Society on the 2021/2022 committee. 
+Student at the University of Melbourne majoring in Actuarial Science under the Bachelor of Commerce. I'm also an events officer for the Singapore Students Society on the 2021/2022 committee. 
 
 ![](images/about/SSSEvents1.jpg){width=35% .external}
 ![](images/about/SSSEvents2.jpg){width=35% .external}
@@ -81,18 +77,28 @@ I attended Wesley College after moving over to Australia from Singapore. Here I 
 
 
 ## National Service
+2019 - 2021:
+
+### Home Team Academy
+After high school I returned to Singapore to complete my 2 years of national service. I was enlisted into the Police force and entered the Home Team Academy where I spent 3 months completing the Police Officers Basic Training
+
+<center>
+![](images/about/POBC.jpg){width=26.5% .external}
+![](images/about/POBC2.jpg){width=25.3% .external}
+</center>
+
+### Protective Security Command 
 ::: {.floatting}
 ```{r out.width='25%', out.extra='style="float:right; padding:10px"'}
 knitr::include_graphics("images/about/Procom4.png")
 ```
-2019 - 2021:  
-After high school I returned to Singpore to complete my 2 years of national service. I was enlisted into the Police force and completed the Police Officers Basic Training before being posted to the Protective Security Command. There I commissioned as an Insitu-Reaction Team (IRT) Trooper after completing additional training. The IRT was first introduced in December 2017 as a quick reaction force on the ground geared towards neutralising armed threats. High-visibility foot patrols are conducted at locations with high human traffic, deterring any potential attacks by projecting a strong police presence in the area.
+After completing Basic Training I was posted to the Protective Security Command. There I commissioned as an Insitu-Reaction Team (IRT) Trooper after completing additional training. The IRT was first introduced in December 2017 as a quick reaction force on the ground geared towards neutralising armed threats. High-visibility foot patrols are conducted at locations with high human traffic, deterring any potential attacks by projecting a strong police presence in the area.
 
 <center>
 
-![](images/about/Procom1.png){width=45% .external}
-![](images/about/Procom5.jpg){width=25.3% .external}
-![](images/about/POBC.jpg){width=25.3% .external}
+![](images/about/Procom6.jpg){height=180 .external}
+![](images/about/Procom1.png){height=180 .external}
+![](images/about/Procom5.jpg){height=180 .external}
 </center>
 :::
 

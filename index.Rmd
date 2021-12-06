@@ -21,16 +21,48 @@ output:
 
 
 ### Welcome to my website.
-This is a place for me to showcase myself as well as learn and improve my coding skills. Feel free to have a look around!
-
 <center>
-Currently a first year Bachelor of Commerce student at the University of Melbourne majoring in Actuarial Science. 
+Second year Bachelor of Commerce student at the University of Melbourne majoring in Actuarial Science. 
 </center>  
 
 <br/>
+This is a place for me to showcase myself as well as learn and improve my coding skills. Feel free to have a look around!
 
-<center>
-![](images/about/Procom3.png){width=29.5% .external}
-![](images/about/David2.png){width=39.25% .external}
-![](images/about/David3.jpg){width=29.5% .external}
-</center>
+<br/>
+
+:::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
+
+::: {}
+
+###### Interests
+
+```{r, echo=F, results='asis'}
+ul <- "- "
+elements <- c(
+ "Basketball",
+ "Mechanical Keyboards",
+ "Coding (Latex/R)"
+)
+glue::glue("{ul}{elements}")
+```
+
+:::
+
+::: {}
+
+###### Affiliations
+
+```{r, print-ed, echo=F, results='asis'}
+ul <- "- "
+elements <- c(
+  "Singapore Students Society (UniMelb)", 
+  "University of Melbbourne",
+  "Singapore Police Force"
+)
+glue::glue("{ul}{elements}")
+```
+
+:::
+
+::::
+
