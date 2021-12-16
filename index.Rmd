@@ -1,22 +1,22 @@
 ---
 title: "David Wong"
-image: "images/David.png"
+image: "images/about/David.png"
 links:
-  - label: <i id="icons" class="fab fa-linkedin big-icon"></i>
+  - label: '<i id="icons" class="fab fa-linkedin big-icon"></i> LinkedIn'
     url: "https://www.linkedin.com/in/david-wong-57757b162/"
-  - label: <i id="icons" class="fab fa-facebook big-icon"></i>
+  - label: '<i id="icons" class="fab fa-facebook big-icon"></i> Facebook'
     url: "https://www.facebook.com/DavidWong1234"
-  - label: <i id="icons" class="fab fa-instagram big-icon"></i>
+  - label: '<i id="icons" class="fab fa-instagram big-icon"></i> Instagram'
     url: "https://www.instagram.com/dav_wxng/"
-  - label: <i id="icons" class="fab fa-github big-icon"></i>
+  - label: '<i id="icons" class="fab fa-github big-icon"></i> Github'
     url: "https://github.com/unknown3d"
-  - label: <i id="icons" class="fas fa-envelope big-icon"></i>
+  - label: '<i id="icons" class="fas fa-envelope big-icon"></i> Email'
     url: "mailto:dwong335@gmail.com"
 base_url: https://davidwong.netlify.app/
 preview: images/David.png
 site: distill::distill_website
 output:
-  postcards::trestles
+  postcards::jolla
 ---
 
 
@@ -25,16 +25,13 @@ output:
 Second year Bachelor of Commerce student at the University of Melbourne majoring in Actuarial Science. 
 </center>  
 
-<br/>
-This is a place for me to showcase myself as well as learn and improve my coding skills. Feel free to have a look around!
-
-<br/>
+<br>
 
 :::: {style="display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 10px;"}
 
 ::: {}
 
-###### Interests
+##### Interests
 
 ```{r, echo=F, results='asis'}
 ul <- "- "
@@ -50,12 +47,12 @@ glue::glue("{ul}{elements}")
 
 ::: {}
 
-###### Affiliations
+##### Affiliations
 
 ```{r, print-ed, echo=F, results='asis'}
 ul <- "- "
 elements <- c(
-  "Singapore Students Society (UniMelb)", 
+  "[Singapore Students Society (UniMelb)](https://sssuom.wixsite.com/home)", 
   "University of Melbourne",
   "Singapore Police Force"
 )

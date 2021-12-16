@@ -31,7 +31,6 @@ tex_opts$set(
 )
 
 opts <- settings(
-  dots = TRUE,
   infinite = TRUE,
   autoplay = TRUE,
   initialSlide = 0,
@@ -101,7 +100,7 @@ After completing Basic Training I was posted to the Protective Security Command.
 
 ![](images/about/Procom6.jpg){height=180 .external}
 ![](images/about/Procom1.png){height=180 .external}
-![](images/about/Procom5.jpg){height=180 .external}
+![](images/about/Procom3.png){height=180 .external}
 </center>
 :::
 
