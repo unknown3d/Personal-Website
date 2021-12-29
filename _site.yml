@@ -21,5 +21,8 @@ navbar:
       href: https://www.facebook.com/DavidWong1234
     - icon: fa fa-instagram
       href: https://www.instagram.com/dav_wxng/
+    - icon: fas fa-adjust
 output: 
-  distill::distill_article
+  distill::distill_article:
+    includes:
+        after_body: "_after_body.html"

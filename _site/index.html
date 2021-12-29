@@ -769,26 +769,26 @@
             --title-size:       20px;
             --text-color:       #000;                     /* edited */
             --text-size:        17px;
-            --hover-color:      #8FA7A7;                  /* edited */
-            --bkgd-color:       #DFEFEF;                  /* edited */
+            --hover-color:      #402929;                  /* edited */
+            --bkgd-color:       #C6D6D6;                  /* edited */
           }
 
           .distill-site-footer {
             --text-color:       rgba(0, 0, 0, 0.8);
             --text-size:        15px;
-            --hover-color:      #8FA7A7;
-            --bkgd-color:       #DFEFEF;
+            --hover-color:      #402929;
+            --bkgd-color:       #C6D6D6;
           }
 
           /*-- Additional custom styles --*/
 
+          html body{
+              background-color: #F9FFFF
+          }
+
           .categories li > a:hover {
               color: #00ff00;
               border-bottom: 1px #00ff00;
-          }
-
-          p a:hover  {
-              color: #00ff00;
           }
 
           /* Change appearance of headers */
@@ -806,6 +806,41 @@
           ul > li::marker {
               font-weight: 700;
               font-size: 1.125em;
+          }
+
+          /* Links */
+
+          a {
+              color: #735C5C;
+              border-bottom: 0px;
+              text-decoration: none;
+          }
+
+          d-article a {
+              color: #735C5C;
+              border-bottom: 0px;
+              text-decoration: none;
+          }
+
+          a:hover, a:focus {
+              color: #5A4343;
+              font-weight: 500;
+              border-color: #5A4343;
+          }
+
+          d-article a:hover, a:focus {
+              color: #5A4343;
+              font-weight: 500;
+              border-color: #5A4343;
+          }
+
+
+          /* Darkmode Settings */
+          .darkmode d-article,
+          .darkmode d-appendix,
+          .darkmode body {
+            background-color: black;
+            color: white;
           }</style>
           <style type="text/css">
           /* base style */
@@ -988,6 +1023,9 @@
           <a href="https://www.instagram.com/dav_wxng/">
           <i class="fa fa-instagram" aria-hidden="true"></i>
           </a>
+          <a>
+          <i class="fas fa-adjust" aria-hidden="true"></i>
+          </a>
           <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
           </div>
           </nav>
@@ -1146,6 +1184,40 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
           <!--radix_placeholder_site_after_body-->
+          <script>
+          const darkmodeToggle = document.getElementsByClassName("fas fa-adjust")[0];
+          let theme = localStorage.getItem("theme");
+
+          if (!theme) {
+            if (window.matchMedia("(prefers-color-scheme: dark)").matches ) {
+              theme = "dark";
+            } else {
+              theme = "light";
+            }
+          }
+          setTheme();
+
+          function switchTheme() {
+            if (theme === "light") {
+              theme = "dark";
+            } else {
+              theme = "light";
+            }
+            localStorage.setItem("theme", theme);
+            setTheme();
+            console.log(theme);
+          }
+
+          function setTheme() {
+            if (theme === "dark") {
+              document.body.classList.add('darkmode');
+            } else {
+              document.body.classList.remove('darkmode');
+            }
+          }
+
+          darkmodeToggle.addEventListener('click', switchTheme)
+          </script>
           <!--/radix_placeholder_site_after_body-->
           <!--radix_placeholder_navigation_after_body-->
           <div class="distill-site-nav distill-site-footer">

@@ -62,26 +62,26 @@ d-appendix {
   --title-size:       20px;
   --text-color:       #000;                     /* edited */
   --text-size:        17px;
-  --hover-color:      #8FA7A7;                  /* edited */
-  --bkgd-color:       #DFEFEF;                  /* edited */
+  --hover-color:      #5A4343;                  /* edited */
+  --bkgd-color:       #C6D6D6;                  /* edited */
 }
 
 .distill-site-footer {
   --text-color:       rgba(0, 0, 0, 0.8);
   --text-size:        15px;
-  --hover-color:      #8FA7A7;
-  --bkgd-color:       #DFEFEF;
+  --hover-color:      #5A4343;
+  --bkgd-color:       #C6D6D6;
 }
 
 /*-- Additional custom styles --*/
 
+html body{
+    background-color: #F9FFFF
+}
+
 .categories li > a:hover {
     color: #00ff00;
     border-bottom: 1px #00ff00;
-}
-
-p a:hover  {
-    color: #00ff00;
 }
 
 /* Change appearance of headers */
@@ -99,4 +99,39 @@ html, body, p {
 ul > li::marker {
     font-weight: 700;
     font-size: 1.125em;
+}
+
+/* Links */
+
+a {
+    color: #735C5C;
+    border-bottom: 0px;
+    text-decoration: none;
+}
+
+d-article a {
+    color: #735C5C;
+    border-bottom: 0px;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #5A4343;
+    font-weight: 500;
+    border-color: #5A4343;
+}
+
+d-article a:hover, a:focus {
+    color: #5A4343;
+    font-weight: 500;
+    border-color: #5A4343;
+}
+
+
+/* Darkmode Settings */
+.darkmode d-article,
+.darkmode d-appendix,
+.darkmode body {
+  background-color: black;
+  color: white;
 }
