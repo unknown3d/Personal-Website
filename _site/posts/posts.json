@@ -1,5 +1,28 @@
 [
   {
+    "path": "posts/2022-01-01-travel-guide-from-singapore-to-melbourne/",
+    "title": "Travel Guide from Singapore to Melbourne",
+    "description": "An overview of my travel from Singapore to Melbourne via the Vaccinated Tavel Lane",
+    "author": [
+      {
+        "name": "David Wong",
+        "url": {
+          "https://davidwong.netlify.app/about.html": {}
+        }
+      },
+      {
+        "name": "",
+        "url": {}
+      }
+    ],
+    "date": "2022-01-05",
+    "categories": [],
+    "contents": "\n\nContents\nPre-Departure\nCheck In/Transit\nArrival/Settling into Melbourne\nService Victoria App\nMyGov Account\n\n\nHere’s my experience travelling from Singapore to Melbourne via the Vaccinated Travel Lane (VTL) on 02/01/2022. In this post I’ll go through all the procedures the various documents needed pre-departure, during transit and upon arrival at Melbourne.\nDo note that quarantine/isolation and testing requirements do change. For the latest update check the Victorian Government website\nPre-Departure\nIn order to utilize the VTL there are several documents which need to be prepared. It is highly recommended that these documents be printed out.\nVaccination Certificate\nAvailable for download via the Notarise Website.\n\nAustralian Travel Declaration\nRequired to be completed at least 72 hours before departure.\n\nInternational Passenger Arrival Permit\nArrivals into Victoria require an arrival permit.\n\nNegative PCR Test\nTaken within 72 hours of your flight. You can book an appointment at any MOH-Approved Covid 19 Test Providers\n\nCheck In/Transit\nAt check in you will be asked to present physical proof of your vaccine certificate and the negative pre-departure PCR test. Everything else occurs as per usual\nUpon boarding the flight you will be given an Australian Travel Declaration Card to declare the items being brought into the country.\nArrival/Settling into Melbourne\nAfter arriving we were required to either take a PCR or RAT (Rapid Antigen Test) test within 24 hours and isolate until we returned a negative result. Another PCR/RAT test is required to be taken between days 5 and 7 after arrival.\nCurrently RAT kits are sold out in many chemists and pharmacists in Melbourne. I would highly recommend bringing your own kits from Singapore in order to avoid the hassle.\nWhile PCR tests in Melbourne are free the current surge of omicron has resulted in large waves of people lining outside testing sites waiting to get tested. It takes 3-4 hours of waiting in line before even setting foot inside the testing center.\n\nService Victoria App\nMelbourne’s TraceTogether App. The app allows you to check in at stores and acts as quick proof of your vaccination status. It may take between 2-3 working days for the documents to be uploaded onto the server\nMyGov Account\nhttps://mothership.sg/2021/11/singapore-australia-first-flight/, https://bearrieto.notion.site/bearrieto/template-mel-travel-plan-513fac077ea94e4ab046ef917b237d00.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-01-05T21:23:14+11:00",
+    "input_file": "travel-guide-from-singapore-to-melbourne.knit.md"
+  },
+  {
     "path": "posts/2021-11-24-test-post/",
     "title": "Test Post",
     "description": "A short description of the post.",
