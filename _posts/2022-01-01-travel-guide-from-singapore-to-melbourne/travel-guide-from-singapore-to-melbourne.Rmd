@@ -1,10 +1,10 @@
 ---
 title: "Travel Guide from Singapore to Melbourne"
 description: |
-  An overview of my travel from Singapore to Melbourne via the Vaccinated Tavel Lane
 author:
   - name: David Wong
     url: {https://davidwong.netlify.app/about.html}
+    affiliation: Singapore Students Society
   - date: 2022-01-01
 output:
   distill::distill_article:
@@ -13,7 +13,6 @@ output:
     toc_collapsed: true
     toc_depth: 3
     number_sections: true
-    self_contained: false
 ---
 
 
@@ -21,9 +20,9 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Here's my experience travelling from Singapore to Melbourne via the Vaccinated Travel Lane (VTL) on 02/01/2022. In this post I'll go through all the procedures the various documents needed pre-departure, during transit and upon arrival at Melbourne.
+In this post I'll go through all the procedures the various documents needed pre-departure, during transit and upon arrival at Melbourne.
 
-Do note that quarantine/isolation and testing requirements do change. For the latest update check the Victorian Government [website](https://www.coronavirus.vic.gov.au/information-overseas-travellers#travellers-from-other-countries-who-are-fully-vaccinated)
+> Note: This is based on my experience and may not reflect what occurs during your trip. Quarantine/isolation and testing requirements do change based on the COVID situation and it is advised that you check the [Victorian Government website](https://www.coronavirus.vic.gov.au/information-overseas-travellers#travellers-from-other-countries-who-are-fully-vaccinated) for the latest updates before your flight.
 
 ## Pre-Departure
 In order to utilize the VTL there are several documents which need to be prepared. It is highly recommended that these documents be printed out.
@@ -41,26 +40,72 @@ In order to utilize the VTL there are several documents which need to be prepare
   + Taken within *72 hours* of your flight. You can book an appointment at any [MOH-Approved Covid 19 Test Providers](https://www.moh.gov.sg/licensing-and-regulation/regulations-guidelines-and-circulars/details/list-of-covid-19-swab-providers)
   
 ## Check In/Transit 
-At check in you will be asked to present physical proof of your vaccine certificate and the negative pre-departure PCR test. Everything else occurs as per usual
+At check in we were asked to present physical proof of our vaccine certificate and the negative pre-departure PCR test. Everything else occurs as per usual
 
-Upon boarding the flight you will be given an Australian Travel Declaration Card to declare the items being brought into the country.
+<center>
+![](images/4.JPG){width=35% .external}
+![](images/5.jpeg){width=35% .external}
+</center>
 
-## Arrival/Settling into Melbourne
-After arriving we were required to either take a PCR or RAT (Rapid Antigen Test) test within 24 hours and isolate until we returned a negative result. Another PCR/RAT test is required to be taken between days 5 and 7 after arrival.
+Upon boarding the flight we were also given an Australian Travel Declaration Card to declare any items being brought into the country.
 
-Currently RAT kits are sold out in many chemists and pharmacists in Melbourne. I would highly recommend bringing your own kits from Singapore in order to avoid the hassle. 
+## Arrival
+Within 24 hours of arrival we were required to either take a PCR or take a RAT (Rapid Antigen Test) test and isolate until we returned a negative result.
 
+Another PCR/RAT test is required to be taken between days 5 and 7 of arrival.
+
+#### RAT/ART (Rapit Antigen Test)
+Currently RAT kits are sold out in all chemists and pharmacists in Melbourne. I would highly recommend bringing your own kits from Singapore in order to avoid the hassle. 
+
+#### PCR Testing
 While PCR tests in Melbourne are free the current surge of omicron has resulted in large waves of people lining outside testing sites waiting to get tested. It takes 3-4 hours of waiting in line before even setting foot inside the testing center. 
 
-![](images/Singapore to Melbourne/1.jpg)
+<center>
+![Melbounre Town Hall](images/1.jpg){width=35% .external}
+![UniMelb Union House](images/3.jpg){width=35% .external}
+</center>
+If you are required to take a PCR Test my suggestion would be to queue up at your nearest [testing site](https://www.coronavirus.vic.gov.au/where-get-tested-covid-19) before open hours.
 
-
+The last thing that needs to be done after arriving is setting up the Service Victoria App.
 
 ### Service Victoria App
-Melbourne's TraceTogether App. The app allows you to check in at stores and acts as quick proof of your vaccination status. It may take between 2-3 working days for the documents to be uploaded onto the server
+::: {.floatting}
+```{r out.width='25%', out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("images/6.jpeg")
+```
+Melbourne's TraceTogether App. It allows you to check in at stores and acts as proof of your vaccination status. In order to set it up you need to have your vaccine certificate uploaded.
 
-### MyGov Account
+:::
+<center>
+![](images/7.jpg){width=90% .external}
+</center>
 
+#### IHI/myGov
+As international students we don't have access to Medicare so we had to upload our COVID-19 certificates using the [Individual Healthcare Identifier (IHI)](https://www.servicesaustralia.gov.au/individual-healthcare-identifiers).
 
+The quickest way to get an IHI is online through your [myGov](https://my.gov.au/LoginServices/main/login?execution=e3s1) account. If you don’t have an account, it’s easy to [create one](https://www.servicesaustralia.gov.au/mygov-help-create-mygov-account).
 
-https://mothership.sg/2021/11/singapore-australia-first-flight/, https://bearrieto.notion.site/bearrieto/template-mel-travel-plan-513fac077ea94e4ab046ef917b237d00.
+After creating your myGov account follow these steps to get an IHI online:
+
+1. Sign in to myGov
+2. Select services or link your first service.
+3. Select IHI service from the list
+4. Follow the prompts to get your IHI, and link the service.
+
+#### Uploading your vaccine certificate
+After getting our IHI we needed to find a pharmacist/chemist/GP who was able to upload our Vaccination Certificates onto the IHI. 
+
+Any place which does vaccinations should be able to upload the certificates. For us we chose to go to the Chemist Warehouse on Elizabeth Street where we paid a $10 service fee for the upload.
+
+We were required to present:
+
+* Our passports
+* The vaccination certificates
+* Personal IHI numbers
+
+![](images/8.jpg){width=100% .external}
+
+After the certificates were uploaded we were then able to add our digital certificates to the Service Victoria App. 
+
+Steps to doing that can be found [here](https://service.vic.gov.au/covid-19/add-covid-19-digital-certificate?channel=mobileapplication)
+
