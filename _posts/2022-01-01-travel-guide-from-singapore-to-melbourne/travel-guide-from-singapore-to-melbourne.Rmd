@@ -1,11 +1,13 @@
 ---
 title: "Travel Guide from Singapore to Melbourne"
 description: |
+  Finally after a year of University online its time to return back to campus. But first here's my experience travelling to Melbourne via the Vaccinated Travel Lane 
 author:
   - name: David Wong
     url: {https://davidwong.netlify.app/about.html}
     affiliation: Singapore Students Society
   - date: 2022-01-01
+preview: images/14.png
 output:
   distill::distill_article:
     toc: true
