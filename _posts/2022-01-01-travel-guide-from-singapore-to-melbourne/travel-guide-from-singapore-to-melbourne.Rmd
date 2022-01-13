@@ -57,6 +57,10 @@ Another PCR/RAT test is required to be taken between days 5 and 7 of arrival.
 #### RAT/ART (Rapit Antigen Test)
 Currently RAT kits are sold out in all chemists and pharmacists in Melbourne. I would highly recommend bringing your own kits from Singapore in order to avoid the hassle. 
 
+<center>
+![](images/9.jpeg){width=25% .external}
+</center>
+
 #### PCR Testing
 While PCR tests in Melbourne are free the current surge of omicron has resulted in large waves of people lining outside testing sites waiting to get tested. It takes 3-4 hours of waiting in line before even setting foot inside the testing center. 
 
@@ -107,5 +111,25 @@ We were required to present:
 
 After the certificates were uploaded we were then able to add our digital certificates to the Service Victoria App. 
 
-Steps to doing that can be found [here](https://service.vic.gov.au/covid-19/add-covid-19-digital-certificate?channel=mobileapplication)
+1. Log onto your myGov account using a browser on your phone
+
+2. Select the ‘Individual Healthcare Identifiers’ service
+<center>
+![](images/12.png){width=70% .external}
+</center>
+3. Select ‘View immunisation history’ on the ‘Immunisation history’ tile.
+<center>
+![](images/10.png){width=35% .external}
+</center>
+4. Tap ‘Share with check-in app’.
+<center>
+![](images/11.png){width=35% .external}
+</center>
+5. Tap 'Service Victoria'
+<center>
+![](images/13.png){width=35% .external}
+</center>
+Check out the full steps [here](https://service.vic.gov.au/covid-19/add-covid-19-digital-certificate?channel=mobileapplication)
+
+After uploading the vaccine certificates our vaccination status would now be shown whenever we checked into a venue. We were finally be able to leave our passports and physical vaccine certificates at home :) 
 

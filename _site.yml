@@ -14,7 +14,7 @@ navbar:
     - text: "Posts"
       href: posts.html
     - text: "CV"
-      href: resume/resume.pdf
+      href: resume/DavidWong_resume.pdf
     - icon: fa fa-linkedin
       href: https://www.linkedin.com/in/david-wong-57757b162/
     - icon: fa fa-facebook
