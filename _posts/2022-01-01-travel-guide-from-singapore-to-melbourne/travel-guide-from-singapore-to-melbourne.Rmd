@@ -1,7 +1,7 @@
 ---
 title: "Travel Guide from Singapore to Melbourne"
 description: |
-  Finally after a year of University online its time to return back to campus. But first here's my experience travelling to Melbourne via the Vaccinated Travel Lane 
+  After a year of University online its finally time to return back to campus. But first here's my experience travelling to Melbourne via the Vaccinated Travel Lane 
 author:
   - name: David Wong
     url: {https://davidwong.netlify.app/about.html}
@@ -21,40 +21,45 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
-In this post I'll go through all the procedures the various documents needed pre-departure, during transit and upon arrival at Melbourne.
-
 > Note: This is based on my experience and may not reflect what occurs during your trip. Quarantine/isolation and testing requirements do change based on the COVID situation and it is advised that you check the [Victorian Government website](https://www.coronavirus.vic.gov.au/information-overseas-travellers#travellers-from-other-countries-who-are-fully-vaccinated) for the latest updates before your flight.
 
 ## Pre-Departure
-In order to utilize the VTL there are several documents which need to be prepared. It is highly recommended that these documents be printed out.
+In order to utilize the VTL there were several documents which needed to be prepared. I recommended that you print these documents out.
 
 * Vaccination Certificate
   + Available for download via the [Notarise Website](https://www.notarise.gov.sg/).
-  
+<center>
+![](images/15.png){width=70% .external}
+</center>
+
 * [Australian Travel Declaration](https://atd.homeaffairs.gov.au/)
   + Required to be completed *at least 72 hours* before departure.
-  
+<center>
+![](images/17.png){width=70% .external}
+</center>
+
 * [International Passenger Arrival Permit](https://www.service.vic.gov.au/services/border-permit/home)
   + Arrivals into Victoria require an arrival permit.
-  
+<center>
+![](images/16.png){width=70% .external}
+</center>
+
 * Negative PCR Test
   + Taken within *72 hours* of your flight. You can book an appointment at any [MOH-Approved Covid 19 Test Providers](https://www.moh.gov.sg/licensing-and-regulation/regulations-guidelines-and-circulars/details/list-of-covid-19-swab-providers)
   
-## Check In/Transit 
-At check in we were asked to present physical proof of our vaccine certificate and the negative pre-departure PCR test. Everything else occurs as per usual
+
+When checking in our luggage at Changi Aiport we were asked to show physical proof of our vaccine certificate and the negative pre-departure PCR test. Afterwards everything during the transit to Melbourne occured as per usual.
 
 <center>
 ![](images/4.JPG){width=35% .external}
-![](images/5.jpeg){width=35% .external}
 </center>
-
-Upon boarding the flight we were also given an Australian Travel Declaration Card to declare any items being brought into the country.
 
 ## Arrival
 Within 24 hours of arrival we were required to either take a PCR or take a RAT (Rapid Antigen Test) test and isolate until we returned a negative result.
 
-Another PCR/RAT test is required to be taken between days 5 and 7 of arrival.
+Another PCR/RAT test was required to be taken between days 5 and 7 of arrival.
+
+**Again these were the quarantine arrangements during my trip (02/01/2022) and might not be up to date. Do check the [Victorian Government website](https://www.coronavirus.vic.gov.au/information-overseas-travellers#travellers-from-other-countries-who-are-fully-vaccinated) for up to date information before your flight.**
 
 #### RAT/ART (Rapit Antigen Test)
 Currently RAT kits are sold out in all chemists and pharmacists in Melbourne. I would highly recommend bringing your own kits from Singapore in order to avoid the hassle. 
@@ -83,13 +88,17 @@ Melbourne's TraceTogether App. It allows you to check in at stores and acts as p
 
 :::
 <center>
-![](images/7.jpg){width=90% .external}
+![](images/7.jpg){width=85% .external}
 </center>
 
 #### IHI/myGov
 As international students we don't have access to Medicare so we had to upload our COVID-19 certificates using the [Individual Healthcare Identifier (IHI)](https://www.servicesaustralia.gov.au/individual-healthcare-identifiers).
 
 The quickest way to get an IHI is online through your [myGov](https://my.gov.au/LoginServices/main/login?execution=e3s1) account. If you don’t have an account, it’s easy to [create one](https://www.servicesaustralia.gov.au/mygov-help-create-mygov-account).
+
+<center>
+![](images/18.png){width=70% .external}
+</center>
 
 After creating your myGov account follow these steps to get an IHI online:
 
@@ -135,3 +144,8 @@ Check out the full steps [here](https://service.vic.gov.au/covid-19/add-covid-19
 
 After uploading the vaccine certificates our vaccination status would now be shown whenever we checked into a venue. We were finally be able to leave our passports and physical vaccine certificates at home :) 
 
+
+
+<center>
+Thanks so much for reading til the end. I hope this guide is able to help in your preparation to return to Melbourne and I look forward to meeting many of you on campus!
+</center>
