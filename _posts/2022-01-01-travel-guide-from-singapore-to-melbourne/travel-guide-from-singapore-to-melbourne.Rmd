@@ -66,6 +66,7 @@ Currently RAT kits are sold out in all chemists and pharmacists in Melbourne. I 
 
 <center>
 ![](images/9.jpeg){width=25% .external}
+![](images/19.jpeg){width=25% .external}
 </center>
 
 #### PCR Testing
@@ -76,6 +77,9 @@ While PCR tests in Melbourne are free the current surge of omicron has resulted 
 ![UniMelb Union House](images/3.jpg){width=35% .external}
 </center>
 If you are required to take a PCR Test my suggestion would be to queue up at your nearest [testing site](https://www.coronavirus.vic.gov.au/where-get-tested-covid-19) before open hours.
+
+> Update 07/02/2022: Ever since Victoria has shifted to more Rapid Antigen Testing the lines for PCR tests have dissapeared, meaning it is now possible to walk in for a PCR test without needing to queue for hours. 
+
 
 The last thing that needs to be done after arriving is setting up the Service Victoria App.
 
